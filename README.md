@@ -131,7 +131,7 @@ After establishing classical machine learning baselines, a **simple Convolutiona
 
 ### Model Overview
 - Input: RGB images
-- Task: Binary classification (Healthy vs Diseased)
+- Task: Classification- 38 classes
 - Loss function: Categorical / Binary Cross-Entropy
 - Optimizer: Adam
 - Epochs: 10
