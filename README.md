@@ -1,8 +1,8 @@
 # WIDS_5.0-End-to-End-ML
 # Plant Disease Classification using Machine Learning
 
-This repository contains exploratory data analysis (EDA) and baseline machine learning models built on the **PlantVillage dataset**.  
-The work was done as part of **WiDS 5.0 (Week 1 & Week 2)** to understand the dataset and establish strong baseline results before moving to deep learning models.
+This repository contains exploratory data analysis (EDA), baseline machine learning models, and deep Learning models - Simple CNN and Transfer Learning built on the **PlantVillage dataset**.  
+The work was done as part of **WiDS 5.0 (Week 1, Week 2, and Week 3)**
 
 ---
 
@@ -12,7 +12,7 @@ The work was done as part of **WiDS 5.0 (Week 1 & Week 2)** to understand the da
 - Perform exploratory data analysis on image quality and distribution  
 - Build simple baseline machine learning models  
 - Handle class imbalance and evaluate its effect on performance  
-
+- Compare the performance of Simple CNN model and model built using Transfer Learning
 ---
 
 ## Dataset Description
@@ -20,7 +20,7 @@ The work was done as part of **WiDS 5.0 (Week 1 & Week 2)** to understand the da
 - Total images: **54,305**
 - Number of plant species: **14**
 - Number of classes: **38**
-- Problem setup: **Binary Classification**
+- Problem setup: **Binary Classification** (initial)
   - `0` → Healthy
   - `1` → Diseased
 
