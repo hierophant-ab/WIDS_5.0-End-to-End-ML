@@ -193,7 +193,7 @@ Only the final classification layers were trained, while the base model was kept
 
 - Base model: **EfficientNetB0 (ImageNet weights)**
 - Input: RGB images
-- Task: Binary classification (Healthy vs Diseased)
+- Task: Classification- 38 classes
 - Training strategy:
   - Feature extraction using pre-trained backbone
   - Custom classification head on top
